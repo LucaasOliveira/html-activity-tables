@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <style>
+      * {
+        margin: 0;
+      }
+
+      table {
+        width: 100vw;
+        height: 100vh;
+        border-collapse: collapse;
+        text-align: center;
+      }
+
+      tr,
+      td {
+        border: 1px solid black;
+      }
+
+      .td-top {
+        height: 40px;
+      }
+      .td-menu {
+        height: calc(100vh / 4);
+        width: calc(100vw / 5);
+      }
+
+      .td-footer {
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <theader>
+        <tr>
+          <td class="td-top" colspan="2">
+            <ul type="none">
+              <li>Practical Activity - HTML - Tables Exercise 02</li>
+              <li>TOP</li>
+            </ul>
+          </td>
+        </tr>
+      </theader>
+      <tbody>
+        <tr>
+          <td class="td-menu">MENU</td>
+          <td class="td-content">CONTENT</td>
+        </tr>
+      </tbody>
+      <tfooter>
+        <tr>
+          <td class="td-footer" colspan="2">FOOTER</td>
+        </tr>
+      </tfooter>
+    </table>
+  </body>
+</html>
