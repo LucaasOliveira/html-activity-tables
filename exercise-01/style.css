@@ -6,8 +6,13 @@ tr,
 td {
   border: 1px solid black;
   width: 200px;
-  height: 30px;
+  height: 40px;
   padding: 0 8px;
+  background-color: #ccc;
+}
+td:hover {
+  background-color: #000;
+  color: #fff;
 }
 .align-center {
   text-align: center;
